@@ -1,0 +1,64 @@
+body{
+  border: 1px solid rgb(0, 170, 110);
+  border-radius: 3px;
+  background-color: #3b3b3b;
+  margin: 0;
+}
+
+.divbutton{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 15px 0 5px 0;
+  width: 120px;
+}
+
+button {
+  background-color: rgb(0, 170, 110);
+  border: none;
+  border-radius: 3px;
+  color: rgb(240, 240, 240);
+  padding: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(0, 190, 120);
+}
+
+td{
+  /* margin-left: 5px; */
+  display:inline-table;
+  font-family:Tahoma;
+  font-size: x-small;
+  color: #73b37f;
+}
+
+td:hover{
+  color:#74df88;
+  cursor: pointer;
+}
+
+.github{
+  position: relative;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding-top: 5px;
+  width: 120px;
+}
+
+a, p {
+  margin: 0;
+  bottom: 1px;
+  position: relative;
+  font-family:Tahoma;
+  font-size:xx-small;
+  color:rgb(85, 114, 103);
+  text-decoration: none;
+}
+
+a:hover {color:#73b37f;}
